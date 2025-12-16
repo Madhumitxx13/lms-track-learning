@@ -152,6 +152,7 @@ Responsive UI enhancements
 👩‍💻 Author
 
 Madhumitha S
+
 Learning Management System – Industry Based Project
 Built with a focus on scalability, clarity, and real-world LMS design
 

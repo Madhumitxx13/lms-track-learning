@@ -48,30 +48,33 @@ Version Control: Git & GitHub
 ⚙️ Scalable Django project structure
 
 📂 Project Structure
-lms/
+
+lms/                          # Project root (pushed to GitHub)
 │
-├── lms/                   # Django project settings
+├── lms/                      # Django project settings
 │   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
 │
-├── lms_core/              # Core LMS (Track Learning) app
+├── lms_core/                 # Core LMS (Track Learning) app
 │   ├── migrations/
+│   │   └── __init__.py
+│   ├── templates/
+│   │   └── dashboard.html   # Learning Progress Dashboard UI
 │   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py          # Course, Module, LearningProgress
-│   ├── views.py           # Dashboard logic
-│   ├── urls.py            # App routing
-│   └── templates/
-│       └── dashboard.html # Learning progress dashboard UI
+│   ├── admin.py             # Admin registrations
+│   ├── apps.py              # App configuration
+│   ├── models.py            # Course, Module, LearningProgress models
+│   ├── views.py             # Dashboard logic
+│   └── urls.py              # App routing
 │
-├── db.sqlite3             # Database (for demo/testing)
-├── manage.py              # Django entry point
-├── README.md              # Project documentation
-└── .gitignore             # Git ignored files
+├── db.sqlite3                # Database (demo/testing)
+├── manage.py                 # Django entry point
+├── README.md                 # Project documentation
+└── .gitignore                # Git ignored files
+
 
 
 📊 Dashboard Preview

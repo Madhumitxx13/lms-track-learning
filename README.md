@@ -92,7 +92,7 @@ Completion percentage
 
 ⚙️ Installation & Setup
 # Clone the repository
-git clone https://github.com/<your-username>/lms-track-learning.git
+git clone [https://github.com/<your-username>/lms-track-learning.git](https://github.com/Madhumitxx13/lms-track-learning/tree/main)
 
 # Navigate to project
 cd lms_project
